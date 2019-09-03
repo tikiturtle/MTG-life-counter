@@ -1,0 +1,45 @@
+.disable_text_highlighting {
+-webkit-touch-callout: none;
+-webkit-user-select: none; /* Webkit */
+-moz-user-select: none;    /* Firefox */
+-ms-user-select: none;     /* IE 10  */
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  min-height:100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 4rem;
+  font-family: arial;
+  font-weight: 750;
+  margin-bottom:0px;
+}
+
+.container {
+
+}
+
+.life1 {
+  margin-right: 20px;
+}
+
+
+.life1 , .life2 {
+  font-size:5rem;
+  font-family: arial;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  padding:3px;
+}
+p {
+  justify-content:center;
+}
